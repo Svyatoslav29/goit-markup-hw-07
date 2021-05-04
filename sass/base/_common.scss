@@ -29,4 +29,30 @@
       color: inherit;
   }
 
+ .list {
+      list-style: none;
+  }
+
+
+.line:after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: currentColor;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+  top: 33px;
+}
+
+.menu-nav__link,
+.menu-nav__link-active,
+.link-adress-title-footer,
+.link-adress-map-footer  {
+   text-decoration: none;
+   color: inherit;
+   transition: color var(--animation) var(--animation-timing-function);
+}
+
   
